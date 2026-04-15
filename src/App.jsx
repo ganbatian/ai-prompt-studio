@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Lightbulb, Copy, Check, Search, ChevronRight, Sparkles, Code2, PenTool, BarChart3, MessageSquare, CreativeCommonsSa, Zap, RefreshCw } from 'lucide-react'
+import { Lightbulb, Copy, Check, Search, ChevronRight, Sparkles, Code2, PenTool, BarChart3, MessageSquare, Palette, Zap, RefreshCw } from 'lucide-react'
 
 const categories = [
   { name: '全部', icon: Sparkles, color: 'text-white' },
@@ -7,7 +7,7 @@ const categories = [
   { name: '编程开发', icon: Code2, color: 'text-emerald-400' },
   { name: '数据分析', icon: BarChart3, color: 'text-blue-400' },
   { name: '对话沟通', icon: MessageSquare, color: 'text-amber-400' },
-  { name: '创意创作', icon: CreativeCommonsSa, color: 'text-purple-400' },
+  { name: '创意创作', icon: Palette, color: 'text-purple-400' },
 ]
 
 const templates = [
